@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 
+
 def vailidate_user(username, minlen):
     """Checks if the recieved username matches the required conditions."""
     if type(username) != str:
@@ -16,3 +17,6 @@ def vailidate_user(username, minlen):
         if username [0].isnumeric():
             return False
         return True
+
+    
+    #practice of pull-requests
